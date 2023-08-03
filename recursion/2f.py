@@ -8,7 +8,7 @@ def triangle(h):
         _type_: _description_
     """
     def rec(r):
-        if r <= h: 
+        if r <= h:
             print("*" * r)
             rec(r+1)
         return None
